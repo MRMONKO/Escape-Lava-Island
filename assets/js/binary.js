@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.7.16/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"1.0.0","target":"arcade","targetVersion":"1.7.16","repo":"mrmonko/escape-lava-island"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.7.16/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"1.0.1","target":"arcade","targetVersion":"1.7.16","repo":"mrmonko/escape-lava-island"}
 // total=1796701 new=18.98% cached=76.47% other=4.55%
 (function (ectx) {
 'use strict';
@@ -470,7 +470,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P43515(s) {
+function _main___P43540(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1292,13 +1292,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P43515.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P43515.continuations = [  ]
+_main___P43540.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P43540.continuations = [  ]
 
-function _main___P43515_mk(s) {
+function _main___P43540_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P43515, depth: s.depth + 1,
+        parent: s, fn: _main___P43540, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -54950,5 +54950,5 @@ const sprites_BaseSpriteSayRenderer__C23785_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["transparency16___25607","tile3___25610","tile4___25611","tile6___25613","tile7___25614","tile8___25615","tile2___25609","tile10___25617","tile9___25616","tile11___25618","tile12___25619","tile15___25622","tile5___25612","tile16___25623","tile19___25626","tile17___25624","tile20___25627","tile27___25634","tile29___25635","tile30___25636","tile31___25637","tile32___25638","tile33___25640","tile38___25645","tile39___25646","tile42___25649","tile43___25650","tile44___25651","tile40___25647","tile41___25648","tile26___25633","tile28___25639","tile34___25641","tile35___25642","tile36___25643","tile37___25644","tile45___25652","tile46___25653","tile47___25654","tile24___25631","tile48___25655","tile1___25608","tile13___25620","tile14___25621","tile18___25625","tile21___25628","tile22___25629","tile23___25630","tile25___25632","mySprite___25604","mySprite3___25603","mySprite2___25605"])
 
-return _main___P43515
+return _main___P43540
 })
